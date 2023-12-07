@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(224, 224, 224);
+    color: white;
+}
+
+.calc {
+    background-color: rgb(255, 255, 255);
+    width: 315px;
+    height: 485px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 5px;
+}
+
+.key {
+    width: 75px;
+    height: 75px;
+    background-color: #363636;
+}
+
+._grid {
+    display: grid;
+    grid-template-columns: repeat(4, 75px);
+    grid-template-rows: 85px repeat(5, 75px);
+    gap: 5px;
+}
+
+._tablet {
+    grid-column: span 4;
+    
+}
+
+.tablet {
+    background-color: #575656;
+    height: 85px;
+}
